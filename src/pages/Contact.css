@@ -1,0 +1,15 @@
+.container {
+    height: 50px;
+    width: 50px;
+    border: 10px solid grey;
+}
+
+.normal {
+    background-color: grey;
+}
+.alert{
+    background-color: red;
+}
+.success{
+    background-color: green;
+}
