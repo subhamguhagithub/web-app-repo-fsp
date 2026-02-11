@@ -1,0 +1,49 @@
+/* Navbar */
+.navbar {
+  background: #000;
+  padding: 15px 0;
+}
+
+/* Container */
+.navbar-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.navbar-logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Menu */
+.navbar-menu {
+  display: flex;
+  gap: 25px;
+}
+
+/* Links */
+.navbar-menu a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  padding-bottom: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.navbar-menu a:hover {
+  color: orange;
+}
+
+/* Active Link */
+.navbar-menu .active {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
